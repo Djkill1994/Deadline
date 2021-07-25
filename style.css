@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("HTML,CSS/CSS/img/mount.jpg");
+    background-size: cover;
+    overflow:hidden;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    color: silver;
+    text-align: center;
+    font-size: 65px;
+}
+p{
+    font-family: 'Tourney', cursive;
+    font-size: 20px;
+    color: silver;
+    position: relative;
+    bottom: 190px;
+    left: 960px;
+}
+audio{
+    position: relative;
+    bottom: 185px;
+    left: 950px;
+}
+a{
+    font-family: 'Tourney', cursive;
+    font-size: 50px;
+    display: table-header-group;
+    height: 19vh;
+}
+a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+#time{
+    position: relative;
+    bottom: 430px;
+    right: -430px;
+    font-size: 8rem;
+    font-family: 'Tourney', cursive;
+    color: whitesmoke;
+}
+
+@media (max-width: 500px) {
+    #time{
+        font-size: 6rem;
+    }
+}
