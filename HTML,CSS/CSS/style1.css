@@ -1,17 +1,6 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body {
+body{
     background-image: url("img/week1.jpg");
     background-size: cover;
-}
-h1{
-    font-family: 'Mate SC', serif;
-    text-align: center;
-    font-size: 65px;
-    color: silver;
 }
 h2{
     font-family: 'Mate SC', serif;
@@ -27,21 +16,4 @@ a{
     display: table-header-group;
     position: relative;
     left: 25px;
-}
-a:link {
-    color: silver;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color: silver;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: grey;
-    background-color: transparent;
-    text-decoration: none;
 }
